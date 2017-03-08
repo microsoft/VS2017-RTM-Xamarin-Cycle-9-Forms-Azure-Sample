@@ -205,4 +205,4 @@ PublishProfiles/
 *.nuget.targets
 
 
-project.lock.json
+*.lock.json
