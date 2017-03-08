@@ -10,15 +10,12 @@ namespace MyItems
 {
     public partial class App : Application
     {
-        // a const for helping us know whether or not the app has been wired to an Azure App Service.
-		const string UNCONFIGURED_URL = "https://CONFIGURE-THIS-URL.azurewebsites.net";
+        // Replace the empty string with your Azure App Service URL, like: http://my-service.azurewebsites.net
+        // MUST be a https URL, otherwise iOS will throw errors.
+        public static string AzureMobileAppUrl = "";
 
-		//  a flag indicating whether or not the app has been wired up to an Azure App Service instance.
-        public static bool AzureNeedsSetup => AzureMobileAppUrl == UNCONFIGURED_URL;
-
-		// The Azure App Service URL.
-		// MUST use HTTPS, neglecting to do so will result in runtime errors on iOS.
-        public static string AzureMobileAppUrl = UNCONFIGURED_URL; // Replace UNCONFIGURED_URL with your url, i.e. "https://my-service.azurewebsites.net".
+        //  A flag indicating whether or not the app has been wired up to an Azure App Service instance.
+        public static bool AzureNeedsSetup => string.IsNullOrWhiteSpace(AzureMobileAppUrl);
 
         public static IDictionary<string, string> LoginParameters => null;
 
