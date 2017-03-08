@@ -176,6 +176,9 @@ FakesAssemblies/
 # Backup project files
 *.csproj.bak
 
+# IDE project user files
+*.csproj.user
+
 # Project.json lock files
 *.lock.json
 
