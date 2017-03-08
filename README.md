@@ -8,4 +8,4 @@
 
 ##[3. Publish the Azure App Service code to your Azure App Service instance](https://github.com/Microsoft/VS2017-RTM-Xamarin-Cycle-9-Forms-Azure-Sample/wiki/3.-Copy-the-URL-of-your-Azure-App-Service-instance-into-the-mobile-app-code)'
 
-##4[4. Copy the URL of your Azure App Service instance into the mobile app code](https://github.com/Microsoft/VS2017-RTM-Xamarin-Cycle-9-Forms-Azure-Sample/wiki/4.-Publish-the-Azure-App-Service-code-to-your-Azure-App-Service-instance)
+##[4. Copy the URL of your Azure App Service instance into the mobile app code](https://github.com/Microsoft/VS2017-RTM-Xamarin-Cycle-9-Forms-Azure-Sample/wiki/4.-Publish-the-Azure-App-Service-code-to-your-Azure-App-Service-instance)
